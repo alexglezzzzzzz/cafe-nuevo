@@ -27,7 +27,8 @@ export interface FotosNegocio {
   historia: Foto
   cafe: Foto
   reposteria: Foto
-  tostador: Foto
+  /** Foto a toda anchura usada de fondo en la sección de novedades. */
+  fondo: Foto
 }
 
 export interface Negocio {

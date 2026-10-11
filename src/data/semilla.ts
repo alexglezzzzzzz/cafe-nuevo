@@ -67,13 +67,13 @@ function proximoAnioNuevo(): string {
 
 const negocio: Negocio = {
   nombre: 'Café Nuevo',
-  lema: 'El café de siempre, tostado aquí al lado',
+  lema: 'El café de siempre, hecho como nunca',
   descripcionCorta:
-    'Cafetería de barrio en San Pablo con tostador propio. Desayunos de toda la vida y café de especialidad, servidos en la misma barra.',
+    'Café de especialidad, repostería casera y una mesa libre para ti. En Café Nuevo tratamos a cada vecino como si fuera el primero del día.',
   historia: [
     'Abrimos en 2019 en un local que llevaba once años cerrado, en una calle del barrio de San Pablo por la que pasa todo el mundo y en la que casi nadie se paraba.',
-    'La idea era sencilla: un sitio donde el café estuviera bien hecho sin que hiciera falta explicar por qué. Pusimos un tostador pequeño al fondo, de doce kilos, y empezamos a tostar nuestro propio grano los martes por la mañana.',
-    'Siete años después seguimos tostando los martes. Por la barra pasan los del mercado a primera hora, las familias el fin de semana y gente que viene a trabajar un rato con el portátil. Nos gusta que quepan todos.',
+    'La idea era sencilla: un sitio donde pararse un momento, tomarse un café bien hecho y que alguien se acordara de tu nombre la segunda vez que vinieras. Sin prisa, sin ruido, sin complicarlo.',
+    'Siete años después seguimos siendo eso. Por la barra pasan los del mercado a primera hora, las familias el fin de semana y quien busca un rincón tranquilo para desconectar un rato. Café de calidad, trato cercano y tiempo para quedarse. Nos gusta que quepan todos.',
   ],
   fundadoEn: 2019,
   direccion: {
@@ -111,9 +111,9 @@ const negocio: Negocio = {
       archivo: '/fotos/tarta-cafe.jpg',
       alt: 'Porción de carrot cake con cobertura de queso junto a un café con leche.',
     },
-    tostador: {
+    fondo: {
       archivo: '/fotos/grano.jpg',
-      alt: 'Granos de café recién tostados.',
+      alt: 'Café en grano, seleccionado con cuidado.',
     },
   },
 }
@@ -171,7 +171,7 @@ const categorias: CategoriaCarta[] = [
   {
     id: 'cat-cafes',
     nombre: 'Cafés',
-    descripcion: 'Todo con nuestro tostado de la casa, salvo donde se indique.',
+    descripcion: 'Café de especialidad, cuidado en cada taza.',
     orden: 1,
   },
   {
@@ -201,7 +201,7 @@ const categorias: CategoriaCarta[] = [
   {
     id: 'cat-grano',
     nombre: 'Café en grano',
-    descripcion: 'Tostado los martes. Te lo molemos al gusto si lo pides.',
+    descripcion: 'Para llevar a casa la misma calidad que servimos en la barra. Te lo molemos al gusto si lo pides.',
     orden: 6,
   },
 ]
@@ -254,11 +254,11 @@ const productos: ProductoCarta[] = [
 const novedades: Novedad[] = [
   {
     id: 'nov-1',
-    titulo: 'Ya está aquí el tostado de otoño',
+    titulo: 'Nueva selección de café para el otoño',
     resumen:
-      'Hemos cambiado el grano de la casa. Más cuerpo, más cacao, pensado para los días que empiezan a pedir abrigo.',
+      'Hemos renovado el café de la casa pensando en estos meses: más cuerpo, más dulzor, igual de bueno solo que con leche.',
     cuerpo:
-      'Cada otoño ajustamos el perfil del tostado. Este año hemos subido un poco el tiempo de desarrollo para ganar cuerpo, y el resultado va muy bien con leche y todavía mejor solo.\n\nLo tienes en la barra desde esta semana y en bolsa de 250 gramos para llevar. Si vienes con tu propio bote, te lo rellenamos con un descuento.',
+      'Trabajamos con pequeños productores que cuidan cada lote, y elegimos el grano pensando en lo que mejor acompaña el otoño: un perfil con más cuerpo y notas de cacao.\n\nLo tienes en la barra desde esta semana y en bolsa de 250 gramos para llevar a casa.',
     fecha: enDias(-6),
     publicada: true,
     etiqueta: 'Café',
@@ -276,11 +276,11 @@ const novedades: Novedad[] = [
   },
   {
     id: 'nov-3',
-    titulo: 'Los martes huele a tostador',
+    titulo: 'Un rincón para quedarte el rato que haga falta',
     resumen:
-      'Tostamos cada martes por la mañana. Si te pilla, te invitamos a verlo de cerca.',
+      'No hace falta pedir nada más para quedarte. En Café Nuevo el tiempo en la mesa no se mide.',
     cuerpo:
-      'El tostador está al fondo del local, a la vista. Los martes entre las nueve y las doce lo tenemos en marcha y el sitio entero huele a café recién hecho.\n\nSi te interesa, acércate a la barra y te explicamos lo que estamos haciendo. No hay que avisar.',
+      'Nos gusta que la gente se quede: con un libro, con el portátil, charlando con quien tenga al lado. No hay prisa ni mesa con reloj.\n\nSi vienes solo, a media mañana es cuando más tranquilo está. Y si vienes en grupo, avísanos y te guardamos sitio.',
     fecha: enDias(-24),
     publicada: true,
     etiqueta: 'La casa',

@@ -17,7 +17,7 @@ export function Novedades() {
   return (
     <section id="novedades" className="relative overflow-hidden">
       <img
-        src={negocio.fotos.tostador.archivo}
+        src={negocio.fotos.fondo.archivo}
         alt=""
         aria-hidden="true"
         width={1200}

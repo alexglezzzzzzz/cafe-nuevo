@@ -41,8 +41,8 @@
   --color-oliva-600: #58633a;
 
   /* Tipografía */
-  --font-display: 'Fraunces', ui-serif, Georgia, serif;
-  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'DM Serif Display', ui-serif, Georgia, serif;
+  --font-sans: 'Fira Sans', ui-sans-serif, system-ui, sans-serif;
 
   /* Radios algo generosos, para que no parezca un panel de administración */
   --radius-lg: 0.75rem;
@@ -65,10 +65,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Fraunces es variable: se ajusta el eje óptico para los títulos grandes. */
 .fuente-display {
   font-family: var(--font-display);
-  font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 48;
 }
 
 /* Foco visible y coherente en toda la aplicación. */

@@ -69,7 +69,7 @@ const negocio: Negocio = {
   nombre: 'Café Nuevo',
   lema: 'El café de siempre, hecho como nunca',
   descripcionCorta:
-    'Café de especialidad, repostería casera y una mesa libre para ti. En Café Nuevo tratamos a cada vecino como si fuera el primero del día.',
+    'Café de especialidad y repostería casera.\nEn Café Nuevo tratamos a cada vecino como si fuera el primero del día.',
   historia: [
     'Abrimos en 2019 en un local que llevaba once años cerrado, en una calle del barrio de San Pablo por la que pasa todo el mundo y en la que casi nadie se paraba.',
     'La idea era sencilla: un sitio donde pararse un momento, tomarse un café bien hecho y que alguien se acordara de tu nombre la segunda vez que vinieras. Sin prisa, sin ruido, sin complicarlo.',

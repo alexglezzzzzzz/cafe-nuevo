@@ -15,7 +15,7 @@ export function Hero() {
           <h1 className="fuente-display mt-4 text-[2.5rem] leading-[1.1] text-cafe-900 sm:text-6xl">
             {negocio.lema}
           </h1>
-          <p className="mt-5 max-w-lg text-lg leading-relaxed text-cafe-600">
+          <p className="mt-5 max-w-lg text-lg leading-relaxed whitespace-pre-line text-cafe-600">
             {negocio.descripcionCorta}
           </p>
 

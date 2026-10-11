@@ -208,9 +208,10 @@ repartida por los componentes.
 **No hay modo oscuro.** Una cafetería con paleta de cremas y marrones no gana
 nada con él, y ofrecerlo a medias sería peor que no tenerlo.
 
-**No hay fotos propias.** Las cinco imágenes son de bancos con licencia CC0
-(StockSnap, rawpixel y Wikimedia Commons), libres para uso comercial y sin
-atribución obligatoria. Están optimizadas: 572 KB entre las cinco.
+**No hay fotos propias.** Cuatro de las cinco imágenes son de bancos con
+licencia CC0 (StockSnap, rawpixel y Wikimedia Commons), libres para uso
+comercial y sin atribución obligatoria. La imagen de portada está generada
+con inteligencia artificial. Todas están optimizadas y pesan poco.
 
 **Los productos agotados no se borran, se marcan.** En la carta del panel hay
 una casilla de «disponible» precisamente porque lo que de verdad pasa en un bar

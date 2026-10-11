@@ -47,7 +47,8 @@ export function AvisoLegal() {
         <p>
           Los textos y el diseño de esta web pertenecen a {negocio.nombre}. Las
           fotografías proceden de bancos de imágenes con licencia libre para
-          uso comercial.
+          uso comercial, salvo la imagen de portada, generada mediante
+          inteligencia artificial.
         </p>
       </Apartado>
 

@@ -96,8 +96,8 @@ const negocio: Negocio = {
   ],
   fotos: {
     portada: {
-      archivo: '/fotos/barra-flores.jpg',
-      alt: 'Barra de madera clara con una taza de café servida y un jarrón de flores.',
+      archivo: '/fotos/barra-barista.jpg',
+      alt: 'Un barista sirviendo la leche de un café con leche sobre la barra de madera.',
     },
     historia: {
       archivo: '/fotos/taza-ventana.jpg',

@@ -17,7 +17,7 @@ const CLAVE_VERSION = `${PREFIJO}version`
 const CLAVE_SESION = `${PREFIJO}sesion`
 
 /** Subir este número fuerza una nueva siembra en los navegadores existentes. */
-export const VERSION_DATOS = '4'
+export const VERSION_DATOS = '5'
 
 // ------------------------------------------------- Acceso de bajo nivel
 
